@@ -1,0 +1,44 @@
+#main {
+    background-color: var(--primary);
+    color: var(--secondary);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+#main h1 {
+    font-weight: 750;
+    font-size: 36px;
+    margin-top: 35vh;
+    margin-bottom: 0;
+}
+
+#main h2 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+#main button {
+
+    display: flex;
+    flex-flow: row;
+
+    margin-right: 5vw;
+    margin-left: auto;
+    margin-bottom: 3vw;
+    margin-top: auto;
+}
+
+#main button:hover {
+    border-bottom: 2px solid var(--secondary);
+}
+
+#main button img{
+    height: 19px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

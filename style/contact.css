@@ -1,0 +1,63 @@
+#contact{
+    margin-top: 450px;
+}
+
+#contact ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+
+    display: flex;
+    flex-flow: row;
+}
+
+#contact li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#contact li img{
+    width: 30px;
+}
+
+#contact li #discord{
+    width: 38px;
+    margin-top: -4px;
+}
+
+#contact li a:hover{
+    filter: invert(14%) sepia(93%) saturate(5725%) hue-rotate(228deg) brightness(101%) contrast(109%);
+}
+
+#contact p{
+    font-size: small;
+    font-weight: 500;
+}
+
+@media (max-width: 800px){
+    #contact{
+        margin-top: 400px;
+    }
+    
+
+    #contact li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #contact li img{
+        width: 24px;
+    }
+    
+    #contact li #discord{
+        width: 28px;
+        margin-top: -4px;
+    }
+
+    #about button:hover {
+        filter : none;
+    }
+    
+}

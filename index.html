@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathis Corrio</title>
+    <meta name="description" content="Mathis Corrio - My online resume."/>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/work.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/quote.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/img_crop.css">
+
+</head>
+<body>
+
+<main>
+    <section id="main">
+        <h1>Mathis Corrio</h1>
+        <h2><span id="typing">Software Enginer</span>.</h2>
+
+        <h2></h2>
+        <button id="contactButton">contacts<img src="src/arrow.svg" alt="contact button"> </button>
+    </section>
+    <section id="work">
+        <h3>My <span class="blueLetter">W</span>ork</h3>
+        <div class="row">
+            <button id="slideLeft"><img src="src/sliderArrow.svg" alt="slide left"></button>
+            <div id="slider">
+                <ul id="slides">
+                    <li class="slide"> 
+                        <h4>A5Prod</h4>    
+                        <p class="date"><i>Sept 2022 - Now</i></p>
+                        <div class="row"> 
+                            <img id="a5sys" src="./src/projects/A5Sys.png" alt="A5Sys">
+                            <p><em>A5Sys</em> is an IT services company offering various services like software development, consulting, support, maintenance, and integration. To 
+                                manage its production, the company uses a tool: A5Prod. For my final engineering school internship, I joined the A5Prod team. I am working on 
+                                <em>maintaining and developing new features</em> for this tool.<br>
+                                A5Prod is a web application built with <em>Angular</em> and <em>PHP Symfony</em>. It allows A5Sys's project managers to handle their projects from 
+                                creation to delivery.</p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>This website</h4> 
+                        <p class="date"><i>Feb 2023 - Mar 2023</i></p>    
+                        <div class="row"> 
+                            <img src="./src/projects/ThisWebSite.svg" alt="This website">
+                            <p>This website serves as my online resume. It allows me to publish my work and talk about myself.<br>
+                                Here you can find information about my background, experience, education, and hobbies. I built this website in <em>HTML/CSS</em> and 
+                                <em>JavaScript</em> to have an online presence. It’s also a way to share my enthusiasm for development, design, creation, and technology.</p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Thesis Project (PRED)</h4>
+                        <p class="date"><i>Sept 2022 - Feb 2023</i></p>     
+                        <div class="row"> 
+                            <img id="netflix" src="./src/projects/Netflix.svg" alt="Netflix">
+                            <p>I worked with the IPI team at the LS2N laboratory during my final year of engineering school. They specialize in user testing, visual perception 
+                                modeling, and video compression optimization. Notably, the team <em>works with Netflix to improve video encoding algorithms</em>.<br>
+                                In this context, the team needed <em>data to train an AI</em> to rate the quality of a video from a human perception perspective. I developed a 
+                                <em>Python</em> algorithm to improve the quality of data collected through crowdsourcing for this AI training.</p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Themis (Pictet Assets Management)</h4>
+                        <p class="date"><i>June 2022 - Aug 2022</i></p>    
+                        <div class="row"> 
+                            <img src="./src/projects/Pictet.svg" alt="Pictet Assets Management (PAM)">
+                            <p>During my studies, I had the opportunity to intern for three months in the Tech department at <em>Pictet Asset Management</em>, part of Pictet bank in 
+                                Geneva. I joined an international team working on a project called Themis. The goal of this project was to simplify and improve the investment process 
+                                used by the business team.<br>
+                                I primarily worked on the backend, using <em>Java Spring</em> and <em>Python</em>. I also took on the <em>Scrum Master</em> role for a period of time.</p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Twitter Bot</h4>
+                        <p class="date"><i>Mar 2022 - Apr 2022</i></p>     
+                        <div class="row"> 
+                            <img id="marvel" src="./src/projects/Marvel.svg" alt="Marvel">
+                            <p>"@HeroOfTheDay" is a personal project, where I created a Twitter bot that tweets a new Marvel hero every day along with a picture and a link for users 
+                                to learn more about them. It's a fun project aimed at introducing people to new Marvel heroes. To bring this project to life, I utilized a 
+                                <em>Python library</em>, as well as the <em>Twitter and Marvel APIs</em>. Additionally, I leveraged <em>AWS Lambda</em> to schedule the bot's 
+                                daily execution.</p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Longest</h4> 
+                        <p class="date"><i>Feb 2022 - Mar 2022</i></p>    
+                        <div class="row"> 
+                            <img id="longest" src="./src/projects/Longest.svg" alt="Longest Game">
+                            <p>Longest is a word game where the objective is to find the longest word possible using a set of given letters. To power this game, I <em>reated an 
+                                API</em> that generates letters for users to play with. If a user is the first to request letters from the database on any given day, the API 
+                                generates new letters for them. Otherwise, the API provides them with letters that are already stored in the database.<br>
+                                I chose to use <em>MongoDB</em> as the DBMS. For the frontend I used <em>HTML/CSS</em> and <em>JavaScript</em> and for the backend and the API, I 
+                                utilized <em>Node.js</em>.
+                            </p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>TerrA LigeriA</h4> 
+                        <p class="date"><i>Jan 2022 - Feb 2022</i></p>    
+                        <div class="row"> 
+                            <img id="museum" src="./src/projects/Museum.png" alt="Nantes Museum">
+                            <p>As part of the Science Festival, the TerrA LiberiA exhibition at the Nantes Museum explored the impacts of humans on climate change and oceans. During 
+                                this event, Polytech and the Nantes School of Design (EDNA) collaborated on a joint project. <br>
+
+                                I worked with a <em>team of designers and engineers</em> to create a project centered around a small, uninhabited island near Nantes that remains 
+                                untouched by humans. Our team <em>designed a game</em> where players use binoculars with Nintendo Switch Joycon controllers integrated to take pictures of wild 
+                                animals on the island and learn more about them.  We used a <em>Python library</em> to track the movements of the binoculars and Joycon inputs.
+                            </p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Google HashCode</h4> 
+                        <p class="date"><i>Dec 2021 - Feb 2022</i></p>    
+                        <div class="row"> 
+                            <img src="./src/projects/HashCode.svg" alt="Google HashCode">
+                            <p>The HashCode is an <em>international programming competition</em> organized every year by Google. Google creates an engineering problem and we have 4 hours to 
+                                solve it and maximize our score.<br>
+                                With friends, we decided to participate to the 2022 edition. We train ourselves on archived problems given by Google to be ready for the d day.
+                                This training improved our <em>teamwork</em> and our <em>Python skills</em>.
+                                
+                                Finally, we finished 1316ème on 9031 participants.
+                            </p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Zoupper</h4> 
+                        <p class="date"><i>Nov 2021</i></p>    
+                        <div class="row"> 
+                            <img id="zoupper" src="./src/projects/Zoupper.svg" alt="Zoupper">
+                            <p>Zoupper is a game I developed using <em>HTML/CSS</em> and <em>JavaScript</em>. It's essentially an upgraded version of Connect4, where players can remove a pawn at the 
+                                bottom of a line (i.e. "Zouppe" a line) instead of adding one. The game has a few rules: a player cannot play on a line where their opponent has 
+                                Zouppe'd, and they cannot Zouppe on the same line where their opponent has just played a pawn. The objective of the game is still the same - the first 
+                                player to align four pawns in a row wins.
+                            </p>
+                        </div>    
+                    </li>
+                    <li class="slide">   
+                        <h4>Cinema blog</h4> 
+                        <p class="date"><i>A long time ago</i></p>    
+                        <div class="row"> 
+                            <img id="cinema" src="./src/projects/Cinema.png" alt="Cinema blog">
+                            <p>During my younger years, I created a <em>WordPress blog</em> to share my thoughts and critiques on movies, which allowed me to express my passion for 
+                                cinema. <br>
+                                This experience also served as my initial exposure to the world of computer science, albeit limited to using pre-existing code.
+                            </p>
+                        </div>    
+                    </li>
+                </ul>
+            </div>
+            <button id="slideRight"><img src="src/sliderArrow.svg" alt="slide right"></button>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <p id="learn">Learn</p>
+        <p id="more">more</p>
+        <h3>About <span class="blueLetter">M</span>e</h3>
+        <button id="slideUp"><img src="src/sliderArrow.svg" alt="slide left"></button>
+        <div id="slider2">
+            <ul id="slides2">
+                <li class="row slide">
+                    <div>
+                        <h4>Career</h4>
+                        <img src="src/about/Career.svg">
+                    </div>
+                    <div>
+                        <p>Currently, I am working as an <em>alternate student at A5Sys</em>. My primary responsibility is to work on the enhancements of an internal tool that aims to 
+                            manage production.<br>
+    
+                            Prior to this, I completed a three-month <em>internship in the tech department of Pictet Asset Management</em>, where I was part of an international team that worked 
+                            on a solution to ease an investment process. <br>
+                            
+                            Furethermore, I interned as a <em>laborer at GRDF</em> in Brest for my first engineering internship and worked as a <em>seasonal dustman</em> for the Guingamp Paimpol Agglomeration.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>School</h4>
+                        <img src="src/about/School.svg">
+                    </div>
+                    <div>
+                        <p>I am currently pursuing a degree in <em>computer science at Polytech Nantes</em>, a French engineering school. During my academic tenure, I have gained extensive 
+                            knowledge of various fields in computer science, including algorithm design, programming paradigms (imperative, object-oriented, functional, and logical), computer engineering, 
+                            database administration, computer networking, IT security, among others. <br>
+
+                            Prior to joining Polytech Nantes, I completed a <em>two-year intensive program in CPGE</em> ("Classe Préparatoire au Grandes Ecoles"), which prepared me for the entry exams of 
+                            top French engineering schools. The program included theoretical mathematics, physics, and mechanics.<br>
+                            
+                            Furthermore, I have got a <em>High School Diploma specialized in mathematics</em> with honors.</p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Cinema &<br> TV Series</h4>
+                        <img src="src/about/Cinema.svg">
+                    </div>
+                    <div>
+                        <p>
+                            I love <em>watching Movies and TV Series</em>. In my opinion, this medium provides us with the opportunity to experience captivating stories and transport ourselves 
+                            to other worlds. Moreover, I firmly believe that movies and TV shows are a great way to <em>enhance our creativity</em>, allowing us to <em>expand our imaginations</em> and 
+                            <em>see the world in new ways</em>. They can also be an effective tool for conveying powerful messages and ideas, as they have the ability to reach and impact large
+                            audiences.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Sport</h4>
+                        <img src="src/about/Sport.svg">
+                    </div>
+                    <div>
+                        <p>
+                            I have always been passionate about engaging in <em>various sports</em>. Currently, I have a strong interest in <em>running</em>, and I make it a point to train myself every 
+                            week and participate in trails whenever I can. I also enjoy other sports on a more casual basis, such as <em>fitness, swimming, badminton, cycling, and more</em>. 
+                            As a proud Breton, I also obtained my level 1 certification in <em>scuba diving</em>. <br>
+
+                            For me, sports represent an opportunity to <em>challenge myself</em>, develop greater <em>confidence</em> in my body, feel a sense of <em>pride in my accomplishments</em>, and gain 
+                            a <em>deeper understanding of my own limits</em> and capabilities.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Gaming</h4>
+                        <img src="src/about/Gaming.svg">
+                    </div>
+                    <div>
+                        <p>
+                            <em>Gaming</em> is another one of my hobbies that I thoroughly enjoy. I play various types of games, each of which <em>offers unique skills</em> to be honed such as strategy,
+                             communication, creativity, reflexes, organization, logic, management, and more. I believe that video games provide an <em>excellent opportunity for personal 
+                             growth and development</em>, and I love exploring the different worlds and challenges that they offer.<br>
+
+                            Video Games are also a great way to connect with friends and forge meaningful social connections, regardless of distance or location.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Board Games <br>& Chess</h4>
+                        <img src="src/about/Chess.svg">
+                    </div>
+                    <div>
+                        <p>
+                            I have a strong affinity for <em>board games</em>. I was the <em>secretary of my engineering school's board games club</em>. With this club, <em>we organized a board games 
+                            festival</em> in Nantes called the Paradice Festival.<br>
+
+                            What I find most interesting about board games is their ability to offer diverse games. Beyond the entertainment value, board games also serve as an 
+                            excellent way to get to know others and build strong links.<br>
+                            
+                            Additionally, <em>I play chess</em>. I find it to be a highly stimulating and intellectually rewarding game.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Programming</h4>
+                        <img src="src/about/Programming.svg">
+                    </div>
+                    <div>
+                        <p>
+                            Naturally, <em>programming is one of my primary areas of interest</em>. I'm passionate about programming because it allows me <em>to bring my ideas to life</em> and build 
+                            anything I can imagine. I love taking on personal projects as a way to explore new concepts and challenge myself. Additionally, programming offers an 
+                            excellent opportunity to <em>stay up-to-date with the latest technologies</em> and to continually <em>train my development skills</em>.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Music</h4>
+                        <img src="src/about/Music.svg">
+                    </div>
+                    <div>
+                        <p>
+                            Music is a huge part of my life, as it is for many people. I enjoy <em>attending music festivals and concerts</em> and <em>listening to a variety of genres</em>, including 
+                            rap, pop, electro, rock, jazz, and more.<br>
+
+                            Recently, I have taken up <em>playing guitar</em>. Learning to play an instrument has helped me develop my patience, my concentration, and my perseverance. 
+                            Playing guitar has also given me a new way to <em>express myself creatively</em> and appreciate music in another way.
+                        </p>
+                    </div>
+                </li>
+                <li class="row slide">
+                    <div>
+                        <h4>Travel</h4>
+                        <img src="src/about/Travel.svg">
+                    </div>
+                    <div>
+                        <p>
+                            I love traveling because I like to move. I am <em>originally from Bretagne</em> in France, I have had the opportunity to visit many regions within my country as 
+                            well as several other countries including Spain, Switzerland, and Greece. What I enjoy most about traveling is the <em>thrill of discovering</em> new cultures, 
+                            ways of life, and meeting new people. Additionally, traveling has helped me to <em>improve my language skills</em> and <em> more adaptable to new environments</em>.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button id="slideDown"><img src="src/sliderArrow.svg" alt="slide left"></button>
+    </section>
+
+    <section id="quote">
+        <h4><em><span id="flip">Relationships</span>,</em>&nbsp;why I love my life.</h4>
+        <img src="/src/quote.svg" alt="quote">
+    </section>
+
+    <section id="contact">
+        <h2><span class="blueLetter">C</span>ontact</h2>
+        <ul>
+            <li><a target="" id="copyMail"><img src="src/contact/email.svg" alt="email contact"></a></li>
+            <li><a href="https://www.linkedin.com/in/mathis-corrio/" target="_blank"><img src="src/contact/linkedin.svg" alt="linkedin contact"></a></li>
+            <li><a href="https://www.instagram.com/mathis._crr/" target="_blank"><img src="src/contact/instagram.svg" alt="instagram contact"></a></li>
+            <li><a href="https://t.me/MathisCrr" target="_blank"><img src="src/contact/telegram.svg" alt="telegram contact"></a></li>
+            <li><a href="https://m.me/mathis.corrio" target="_blank"><img src="src/contact/messenger.svg" alt="messenger contact"></a></li>
+            <li><a href="https://discord.com/users/Zecroum#0312" target="_blank"><img id="discord" src="src/contact/discord.svg" alt="discord contact"></a></li>
+            <li><a href="https://github.com/MathisCrr" target="_blank"><img src="src/contact/github.svg" alt="github contact"></a></li>
+        </ul>
+        <p>Thank You !</p>
+    </section>
+</main>
+    
+</body>
+<script src="./index.js"></script>
+</html>
