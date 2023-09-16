@@ -88,35 +88,20 @@ downSlider.addEventListener('click', ()=>{
     console.log(selectedSlide2*totalWheight)
     var translation = -selectedSlide2*totalWheight
     slides2.style.transform = `translateY(${translation}px)`;
-}) 
-
-
-
-//More animation :
-const moreDiv = document.querySelector('#more');
-var elementPosition = moreDiv.offsetTop;
-var windowHeight = window.innerHeight;
-var startExepend = elementPosition - windowHeight - 50;
-
-window.addEventListener('scroll', ()=>{
-    if ((window.scrollY) >= startExepend) {
-        var spacing = 1/Math.exp((scrollY-elementPosition)/250);
-        moreDiv.style.letterSpacing = `${spacing}px`
-    }
 })
 
-
 //Contact scroll :
-const contactButton = document.querySelector('#contactButton')
+const contactButton = document.querySelector('#contactButton');
+const contactSection = document.querySelector("#contact");
 
 contactButton.addEventListener('click', ()=>{
-    window.scrollTo(0, document.body.scrollHeight);
+    contactSection.scrollIntoView({behavior: "smooth"});
 });
 
 
 //Quote animation : 
 const quote = document.querySelector('#flip')
-const quoteArray = ["Creation", "Decovery","Freedom","Innovation","Adventure","Passions","Exploration","Relationships"]
+const quoteArray = ["Creation", "Discovery","Freedom","Innovation","Adventure","Passions","Exploration","Relationships"]
 var i = 0
 
 setInterval(function() {
@@ -130,9 +115,6 @@ setInterval(function() {
     }, 1000);
 
 }, 3000);
-
-
-
 
 
 //Copy adress mail :
@@ -149,33 +131,12 @@ emailBouton.addEventListener('click', ()=>{
 })
 
 
-// Scroll animation (remove):
-/*
-const aboutDiv = document.querySelector('#about #aboutDiv');
-var elementPosition = aboutDiv.offsetTop;
-var windowHeight = window.innerHeight;
-var scrollLimitStart = elementPosition - (windowHeight * 45/100);
-var scrollLimitEnd = scrollLimitStart + 500 - aboutDiv.offsetHeight/2 ;
-console.log(scrollLimitEnd)
-
-
-window.addEventListener('scroll', ()=>{
-    if ((window.scrollY) >= scrollLimitStart) {
-        aboutDiv.classList.add('fixed');
-    }
-    else {
-        aboutDiv.classList.remove('fixed');
-    }
-
-    if ((window.scrollY) >= scrollLimitEnd) {
-        aboutDiv.classList.remove('fixed')
-        aboutDiv.classList.add('scrollable')
-    }
-    else {
-        aboutDiv.classList.remove('scrollable')
-        aboutDiv.add('fixed')
-    }
-});
-*/
-
+//Download résumé :
+const résuméDownloadButton = document.querySelector("#résuméDownload")
+résuméDownloadButton.addEventListener('click', ()=>{
+    const link = document.createElement('a');
+    link.href = "src/MathisCorrio.pdf";
+    link.download = 'MathisCorrio.pdf';
+    link.dispatchEvent(new MouseEvent('click'));
+})
 
