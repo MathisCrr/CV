@@ -49,7 +49,14 @@
     transition: 1s;
 }
 
-#work .slide img{
+#work .slide a{
+    height: fit-content;
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#work .slide a img{
     width: var(--imgWidth);
     margin-right: var(--rightGap);
     margin-left: var(--leftGap);
@@ -90,6 +97,17 @@ margin-top: 0;
     filter: invert(14%) sepia(93%) saturate(5725%) hue-rotate(228deg) brightness(101%) contrast(109%);
 }
 
+#work #résuméDownload{
+    height: 12px;
+    font-size: 12px;
+}
+
+#work #résuméDownload img{
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+
+}
 
 
 /* Mobile */

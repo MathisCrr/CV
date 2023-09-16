@@ -7,23 +7,6 @@
     font-weight: bold;
 }
 
-#learn {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-#more {
-    font-size: 32px;
-    font-weight: bold;
-    color: var(--primary);
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0;
-    margin-bottom: 50px;
-}
-
 /* Slider */
 #about{
     --imgWidth : 75px;
@@ -32,6 +15,10 @@
     --textWidth : 30vw;
     --heightTotal : 320px;
     --widthTotal : calc(var(--imgWidth) + var(--textWidth) + var(--rightGap) + var(--leftGap));
+}
+
+#about #slider2Container{
+    height: fit-content;
 }
 
 #about #slider2{
@@ -94,17 +81,18 @@
 
 /* Button */
 
-#about button {
+#about #slider2Container button {
     position: relative;
     z-index: 1;
     --divWidth : calc(var(--imgWidth) + var(--leftGap) + var(--rightGap));
     margin-right: calc(var(--widthTotal) - var(--divWidth));
+    height: 24px;
+    width: 24px;
 }
 
 #about button:hover {
     filter : invert(14%) sepia(93%) saturate(5725%) hue-rotate(228deg) brightness(101%) contrast(109%);
 }
-
 
 #about #slideUp {
     transform: rotate(-90deg) translateX(-50px);
@@ -119,14 +107,6 @@
 /* Mobile */
 
 @media (max-width: 800px){
-    #learn {
-        font-size: 1.5em;
-    }
-    
-    #more {
-        font-size: 1.5em;
-    }
-
     #about{
         --heightTotal : 500px;
     }
@@ -173,5 +153,4 @@
     #about button:hover {
         filter : none;
     }
-
 }
