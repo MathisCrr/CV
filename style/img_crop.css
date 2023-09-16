@@ -1,36 +1,36 @@
-*{
-    --imgWidth : 75px;
+* {
+    --imgWidth: 75px;
 }
 
-#a5sys{
+#a5sys {
     width: var(--imgWidth);
     height: var(--imgWidth);
     transform: scale(1.75);
 }
 
-#netflix{
+#netflix {
     transform: scale(0.8)
 }
 
-#marvel{
+#marvel {
     transform: scale(1.8);
 }
 
-#longest{
+#longest {
     transform: scale(1.3);
 }
 
-#museum{
+#museum {
     transform: scale(1.8) rotate(-90deg);
     margin-top: auto;
     margin-bottom: auto;
 }
 
-#zoupper{
+#zoupper {
     height: var(--imgWidth);
 }
 
-#cinema{
+#cinema {
     width: var(--imgWidth);
     height: var(--imgWidth);
     transform: scale(1.3);
