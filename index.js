@@ -125,15 +125,15 @@ emailBouton.addEventListener('click', () => {
         .then(() => {
             alert("Mail copied ✔️")
         })
-        .catch((err) => {
+        .catch(() => {
             alert("❌ Error : impossible to interact with your clipboard ❌ \n Here my mail : 📧 mathis.corrio@gmail.com 📧")
         })
 })
 
 
 //Download résumé :
-const résuméDownloadButton = document.querySelector("#résuméDownload")
-résuméDownloadButton.addEventListener('click', () => {
+const resumeDownloadButton = document.querySelector("#résuméDownload")
+resumeDownloadButton.addEventListener('click', () => {
     const link = document.createElement('a');
     link.href = "src/MathisCorrio.pdf";
     link.download = 'MathisCorrio.pdf';
